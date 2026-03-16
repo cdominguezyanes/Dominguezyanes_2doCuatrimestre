@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 6</title>
+</head>
+<body>
+    <h1>Ejercicio 6: Crea un formulario que pida: Un monto en pesos mexicanos (MXN) a convertir. El tipo de cambio actual: Cuántos pesos equivalen a 1 dólar (USD). El tipo de cambio actual: Cuántos pesos equivalen a 1 euro (EUR). Al enviar el formulario, muestra: El monto original en pesos. El equivalente en dólares formateado a 2 decimales. El equivalente en euros formateado con 2 decimales. Cuantas unidades de cada moneda se pueden obtener con exactamente 100 pesos.</h1>
+    <hr>
+    <form action="ejercicio6.php" method="post">
+        <label for="monto">Monto en pesos mexicanos (MXN) a convertir:</label>
+        <input type="number" name="monto" min="0" step="0.01" required>
+        <br>
+        <label for="cambio_usd">Cuántos pesos equivalen a 1 dólar (USD):</label>
+        <input type="number" name="cambio_usd" min="0" step="0.01" required>
+        <br>
+        <label for="cambio_eur">Cuántos pesos equivalen a 1 euro (EUR):</label>
+        <input type="number" name="cambio_eur" min="0" step="0.01" required>
+        <br>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
