@@ -1,0 +1,3 @@
+<?php
+
+// Ejercicio6: Haz un programa que mediante un formulario HTML, reciba una lista de productos diferentes, todos en un solo campo de texto y separados por comas, este formulario se procesara mediante el metodo POST en un script PHP. El script debera almacenar los productos en un arreglo, limpiar los espacios en blanco y ordenarlos alfabeticamente, asi como mostrar en pantalla con una lista numerada utilizando un bucle. Si el campo esta vacio se debera mostrar un error.

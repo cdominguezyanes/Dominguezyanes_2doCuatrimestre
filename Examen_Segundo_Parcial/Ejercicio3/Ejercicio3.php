@@ -1,0 +1,3 @@
+<?php
+
+// Ejercicio3: Haz un programa para determinar si un año es bisiesto o no mediante un formulario HMTL. el cual debera solicitar un campo numerio para el ingreso de un año y enviarlo mediante el metodo GET. El script PHP debe validar que el campo no este vacio y que el valor sea un numero entero positivo mayor a 0; posteriormente debe determinar si el año ingresado es bisiesto y mostrarlo en pantalla. Recuerda que un año es bisiesto si es divisible entre 4, excepto aquellos divisibles entre 100, a que nos tambien sean divisibles entre 400. En caso de que no se cumplan las validaciones anteriores, mostrar un error claro al usuario.

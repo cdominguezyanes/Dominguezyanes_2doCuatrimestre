@@ -1,0 +1,3 @@
+<?php
+
+// Ejercicio4: Haz un sistema que mediante un formulario HTML, el cual debera solicitar al usuario una lista de palabras separadas por comas en un unico campo de texto: y un script en PHP utilizando el metodo POST. El script debe validar inicialmente que el campo no se encuentre vacio, y limpiar los espacios en blanco adicionales; ademas debera mostrar en pantalla la cantidad total de palabras detectadas en la lista, y mostrar cada una de ellas en una linea independiente. Finalmente en otra seccion el sistema debe reorganizar la lista y mostrar las palabras en orden alfabetico.

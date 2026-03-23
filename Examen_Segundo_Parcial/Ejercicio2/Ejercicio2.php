@@ -1,0 +1,3 @@
+<?php
+
+// Ejercicio2: Crea un programa para determinar la paridad de un numero mediante un formulario HTML, el cual debera solicitar un unico valor numerico. El formulario debe procesarse mediante el metodo POST hacia un script PHP. El script debe verificar que el campo no este vacio y que el valor ingresado sea un numero entero; una vez validado, el programa debera determinar y mostrar si el numero es par o impar. En caso de que el dato sea invalida o el campo este vacio, se debera mostrar un mensaje de error claro para usuario.
